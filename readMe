@@ -1,0 +1,7 @@
+This is a little project I've built in Java for my jobhunting. It's a Selenium based test automating script which checks whether a user can acces the http://automationpractice.com 
+website and register with valid credentails.
+The code is split into a Page Object Model where each site you'd access along the way has it's own proper class and the main test starts from BaseTest.
+There is a HomePage class which I've ommited from the test since I didn't want to go over 3 different pages for each test, but it can be easily brough back by
+starting the test in BaseTest from HomePage instead of IntermediatePage.
+
+I've shown use of the PageObject model, Selenium based methods in Java, the use of drivers, assertation and waiting commands.
